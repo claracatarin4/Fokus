@@ -7,16 +7,34 @@ export default function Index() {
       <Image source={require('./foco.png')}/>
 
       <View style={styles.actions}>
+
+        <View style={styles.content}>
+          <Pressable style={styles.contentButtonText}>
+            <Text>Foco</Text>   
+          </Pressable>
+
+           <Pressable style={styles.contentButtonText}>
+            <Text>Pausa Curta</Text>   
+          </Pressable>
+
+           <Pressable style={styles.contentButtonText}>
+            <Text>Pausa Longa</Text>   
+          </Pressable>
+        </View>
+
         <Text style={styles.time}>25:00</Text>
         <Pressable style={styles.button}>
-          <Text style={styles.buttonText}>Iniciar</Text>
+          <Text style={styles.buttonText}>Começar</Text>
         </Pressable>
+
       </View>
 
       <View style={styles.footer}>
+
          <Text style={styles.footerText}>
           Projeto Fictício. Desenvolvido por Aluno.
           </Text>
+
       </View>
 
     </View>
@@ -34,42 +52,57 @@ const styles = StyleSheet.create({
 
   actions: {
     padding: 24,
-    backgroundColor:'#144480',
+    backgroundColor:'#14448080',
     borderRadius: 32,
     borderColor: '#144480',
-    borderWidth: 4,
+    borderWidth: 2,
     alignItems: "center",
     width: '80%',
+    gap: 32,
   },
 
   button: {
     paddingVertical: 10,
     paddingHorizontal: 20,
     backgroundColor:'#B872FF',
-    borderRadius: 5,
+    width: 264,
+    borderRadius: 32,
     alignItems: "center",
   },
 
   time: {
-    fontSize: 48,
+    fontSize: 53.7,
     fontWeight: "bold",
+    textAlign: "center",
     color: "#ffff",
   },
 
   buttonText: {
-    color: "#ffff",
+    padding: 8,
+    color: "#021123",
     fontSize: 18,
-    fontWeight: "bold",
+    fontWeight: "semibold",
   },
 
   footer: {
+    width: '80%',
     marginTop: 40,
     alignItems: "center",
   },
 
   footerText: {
-    fontSize: 18,
+    fontSize: 12.5,
+    textAlign: "center",
     color: "#98A0A8",
-    fontWeight: "bold",
+    fontWeight: "regular",
   },
+
+  content: {
+    position: "absolute"
+
+  },
+  contentButtonText: {
+
+  }
+  
 });
