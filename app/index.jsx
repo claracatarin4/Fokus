@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 import { ActionButton } from "../components/ActionButton/index.jsx";
 import { FokusButton } from "../components/FokusButton/index.jsx";
-
+import { Timer } from "../components/Timer/index.jsx";
 
 const pomodoro = [
   {
@@ -40,7 +40,7 @@ export default function Index() {
           active ={ timerType.id === p.id }
           onPress={() => setTimerType(p)}
           display={p.display}
-          />
+          /> 
           // <Pressable 
           //   key={p.id} 
           //   style={ timerType.id === p.id ? styles.contextButtonActive : null}
@@ -50,12 +50,14 @@ export default function Index() {
           // </Pressable>
        )}
     </View>
-        <Text style={styles.timer}>
-          {/* {timerType.initialValue} */}
+
+    <Timer/>
+        {/* <Text style={styles.timer}>
+          {/* {timerType.initialValue}
           {new Date(timerType.initialValue * 1000).toLocaleTimeString("pt-BR", { minute: "2-digit", second: "2-digit"
 
           })}
-          </Text>
+          </Text> */} */
         
         {/* <Pressable style={styles.button}>
           <Text style={styles.buttonText}>Começar</Text>
@@ -105,12 +107,6 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontSize: 12.5,
     padding: 8,
-  },
-  timer: {
-    fontSize: 54,
-    color: '#FFF',
-    fontWeight: "bold",
-    textAlign: "center",
   },
   footer: {
     width: '80%',
