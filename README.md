@@ -25,7 +25,7 @@ Este guia irá ajudá-lo a configurar o ambiente de desenvolvimento localmente p
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/fokus.git
+   git clone https://github.com/claracatarin4/Fokus.git
    cd fokus
    
 2. Instale as dependências do projeto:
