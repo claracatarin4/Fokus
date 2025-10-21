@@ -1,46 +1,35 @@
-Fokus
+# Fokus
 
-Fokus é um aplicativo desenvolvido com React Native usando o framework Expo. Ele tem como objetivo fornecer uma experiência simples e eficiente para o usuário, permitindo que ele se concentre nas tarefas importantes do dia a dia.
+Fokus é um aplicativo desenvolvido com **React Native** usando o framework **Expo**. O objetivo do app é proporcionar uma experiência simples e eficiente, ajudando os usuários a se concentrarem nas tarefas do dia a dia.
 
+## 🚀 Começando
 
-📦 Começando
+Este guia irá ajudá-lo a configurar o ambiente de desenvolvimento localmente para o projeto Fokus.
 
-Para começar a desenvolver ou rodar o projeto, siga as instruções abaixo.
+### 🛠️ Requisitos
 
+- [Node.js](https://nodejs.org/) (preferencialmente versão LTS)
+- [npm](https://www.npmjs.com/) (gerenciador de pacotes)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Emulador Android ou Simulador iOS, ou um dispositivo físico para teste
 
-1. Instalar dependências
+### 🔧 Instalação
 
-Execute o comando abaixo para instalar todas as dependências do projeto:
+1. Clone o repositório:
 
-npm install
+   ```bash
+   git clone https://github.com/seu-usuario/fokus.git
+   cd fokus
+   
+2. Instale as dependências do projeto:
 
-2. Iniciar o app
+   npm install
 
-Após a instalação, inicie o servidor de desenvolvimento com o comando:
+3. Inicie o servidor de desenvolvimento:
 
-npx expo start
+   npx expo start
+   
+5. Inicie o servidor de desenvolvimento:
 
-
-Isso abrirá uma página no navegador com várias opções de como testar o aplicativo. Você pode rodá-lo em:
-
-Emulador Android
-
-Simulador iOS
-
-Expo Go
-, para testar diretamente no seu dispositivo móvel.
-
-🚀 Desenvolvimento
-
-O projeto está configurado para usar routamento baseado em arquivos
-, o que facilita a navegação entre as telas.
-
-Você pode começar a desenvolver e modificar o código dentro do diretório app.
-
-Resetar o Projeto
-
-Se quiser começar com um novo estado no projeto, use o comando abaixo. Isso moverá o código inicial para o diretório app-example e criará uma pasta app em branco para você começar a desenvolver do zero.
-
-npm run reset-project
-
+   npx expo start
 
