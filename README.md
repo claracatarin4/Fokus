@@ -6,6 +6,13 @@ Fokus é um aplicativo desenvolvido com **React Native** usando o framework **Ex
 
 Este guia irá ajudá-lo a configurar o ambiente de desenvolvimento localmente para o projeto Fokus.
 
+## Tecnologias Utilizadas
+<div style="display: inline_block">
+   <img align="center" alt="Clara-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+   <img align="center" alt="Clara-ReactNative" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+   <img align="center" alt="Clara-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg">
+</div>
+
 ### 🛠️ Requisitos
 
 - [Node.js](https://nodejs.org/) (preferencialmente versão LTS)
